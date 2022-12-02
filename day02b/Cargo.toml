@@ -1,0 +1,17 @@
+[package]
+name = "day02b"
+version = "0.1.0"
+authors = ["Dylan Wright"]
+edition = "2021"
+
+[dependencies]
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+strip = true      # Automagically strip symbols from the library
+opt-level = "z"   # Highest optimisation
+lto = true        # Enable link time optimisation
+codegen-units = 1 # Maximise size reduction optimisation
+panic = 'abort'   # Aborts on panic
