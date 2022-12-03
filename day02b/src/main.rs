@@ -64,6 +64,15 @@ impl Shape {
             Shape::Scissors => Shape::Rock
         }
     }
+
+    // Set conditions mapping each outcome
+    fn round_result(&self, opponent: &Self) -> Outcome {
+        match (self, opponent) {
+            (Shape::Rock, Shape::Rock) | (Shape::Paper, Shape::Paper) | (Shape::Scissors, Shape::Scissors) => Outcome::Draw,
+            (Shape::Paper, Shape::Rock) | (Shape::Rock, Shape::Scissors) | (Shape::Scissors, Shape::Paper) => Outcome::Win,
+            _ => Outcome::Lose
+        }
+    }
 }
 
 enum Outcome {
@@ -84,6 +93,7 @@ impl Outcome {
 
 fn main() {
     let mut total_score: usize = 0;
+    let mut total_correct_score: usize = 0;
 
     if let Ok(lines) = read_lines("./input.txt") {
         for line in lines {
@@ -95,7 +105,16 @@ fn main() {
                     "C" => Shape::Scissors,
                     _   => panic!("invalid input")
                 };
-                let outcome = match turn.next().expect("valid input") {
+                let second_column = turn.next().expect("valid input");
+
+                let player_turn = match second_column {
+                    "X" => Shape::Rock,
+                    "Y" => Shape::Paper,
+                    "Z" => Shape::Scissors,
+                    _   => panic!("invalid input")
+                };
+
+                let outcome = match second_column {
                     "X" => Outcome::Lose,
                     "Y" => Outcome::Draw,
                     "Z" => Outcome::Win,
@@ -109,12 +128,14 @@ fn main() {
                     _ => opponent_turn
                 };
 
+                // Refactored to present resuts from parts A and B
+                total_score += player_turn.turn_point() + player_turn.round_result(&opponent_turn).score();
                 // No need to calculate score on outcome since the outcome is already known
-                total_score += response.turn_point() + outcome.score();
+                total_correct_score += response.turn_point() + outcome.score();
             }
-            
         }
     }
 
-    println!("Total score by correctly following the strategy guide: {total_score}");
+    println!("Total score by following the strategy guide: {total_score}");
+    println!("Total score by correctly following the strategy guide: {total_correct_score}");
 }
