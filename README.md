@@ -5,11 +5,11 @@ These are my solutions to this year's [Advent of Code](https://adventofcode.com/
 ## Solutions
 
 All solutions linked below:
-| Day | Title | Part A | Part B | SFS | Result |
-|:-|:-|:-|:-|:-|:-|
-| 01 | Calorie Counting    | | | [`main.rs`](./day01/src/main.rs) | :star2: :star2: |
-| 02 | Rock Paper Scissors | [02a](./day02a/src/main.rs) | [02b](./day02b/src/main.rs) | | :star2: :star2: |
+| Day | Title | Part A | Part B | Result |
+|:-|:-|:-|:-|:-|
+| [01](https://adventofcode.com/2022/day/1) | Calorie Counting    | [01a](./day01a/src/main.rs) | [01b](./day01b/src/main.rs) | :star::star: |
+| [02](https://adventofcode.com/2022/day/2) | Rock Paper Scissors | [02a](./day02a/src/main.rs) | [`02b`](./day02b/src/main.rs) | :star::star: |
 
 ## Notes
 
-1. Now that I have a better understanding of how this event is run, I may start uploading single file solutions from this point on if I have time to refactor part A for part B. For solutions that are split in two, I will go back and refactor to a single file, and archive the originals.
+1. Now that I have a better understanding of how this event is run, I may start uploading single file solutions from this point on, but I may still keep them split so I can have separate comments for both parts. Instead what I'll do is refactor part B to give answers to both parts where I can. Instances of part B that do not combine both answers will have a lighter background.
