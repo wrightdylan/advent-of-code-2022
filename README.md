@@ -7,8 +7,9 @@ These are my solutions to this year's [Advent of Code](https://adventofcode.com/
 All solutions linked below:
 | Day | Title | Part A | Part B | Result |
 |:-|:-|:-|:-|:-|
-| [01](https://adventofcode.com/2022/day/1) | Calorie Counting    | [01a](./day01a/src/main.rs) | [01b](./day01b/src/main.rs) | :star::star: |
-| [02](https://adventofcode.com/2022/day/2) | Rock Paper Scissors | [02a](./day02a/src/main.rs) | [`02b`](./day02b/src/main.rs) | :star::star: |
+| [01](https://adventofcode.com/2022/day/1) | Calorie Counting        | [01a](./day01a/src/main.rs) | [01b](./day01b/src/main.rs) | :star::star: |
+| [02](https://adventofcode.com/2022/day/2) | Rock Paper Scissors     | [02a](./day02a/src/main.rs) | [`02b`](./day02b/src/main.rs) | :star::star: |
+| [03](https://adventofcode.com/2022/day/3) | Rucksack Reorganisation | [03a](./day03a/src/main.rs) | [03b](./day03b/src/main.rs) | :star::star: |
 
 ## Notes
 
