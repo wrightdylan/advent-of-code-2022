@@ -1,4 +1,4 @@
-use std::collections::HashSet;
+use std::{str, collections::HashSet};
 
 /*
  * The communications device is now detecting packets, but still isn't working.
@@ -13,14 +13,14 @@ use std::collections::HashSet;
  * give both answers.
  */
 
-fn find_header(data: &[u8], size: usize) -> usize {
-    let (idx, _) = data.windows(size)
+fn find_header(data: &[u8], size: usize) -> (usize, &str) {
+    let (idx, header) = data.windows(size)
         .enumerate()
         .filter(|(_, char)| HashSet::<u8>::from_iter(char.iter().cloned()).len() == size)
         .next()
         .unwrap();
     
-    idx + size
+    (idx + size, str::from_utf8(header).unwrap())
 }
 
 fn main() {
@@ -28,6 +28,6 @@ fn main() {
     let packet = find_header(data, 4);
     let message = find_header(data, 14);
 
-    println!("The packet marker is at position {}", packet);
-    println!("The message marker is at position {}", message);
+    println!("The packet marker is at position {}, and consist of {}.", packet.0, packet.1);
+    println!("The message marker is at position {}, and consists of {}.", message.0, message.1);
 }
