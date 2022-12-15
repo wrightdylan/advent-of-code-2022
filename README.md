@@ -13,14 +13,18 @@ All solutions linked below:
 | [04](https://adventofcode.com/2022/day/4)  | Camp Cleanup            | [04a](./day04a/src/main.rs) | [04b](./day04b/src/main.rs) | :smile:             |
 | [05](https://adventofcode.com/2022/day/5)  | Supply Stacks           | [05a](./day05a/src/main.rs) | [05b](./day05b/src/main.rs) | :sob::goberserk:    |
 | [06](https://adventofcode.com/2022/day/6)  | Tuning Trouble          | [06a](./day06a/src/main.rs) | [06b](./day06b/src/main.rs) | :hugs:              |
-| [07](https://adventofcode.com/2022/day/7)  | No Space Left On Device | TBC                         | TBC                         | :sweat::weary:      |
+| [07](https://adventofcode.com/2022/day/7)  | No Space Left On Device | TBC                         |                             | :sweat::weary:      |
 | [08](https://adventofcode.com/2022/day/8)  | Treetop Tree House      | [08a](./day08a/src/main.rs) | TBC                         | :confounded:        |
-| [09](https://adventofcode.com/2022/day/9)  | Rope Bridge             | TBC                         | TBC                         | :hourglass::camera: |
+| [09](https://adventofcode.com/2022/day/9)  | Rope Bridge             | TBC                         |                             | :hourglass::camera: |
 | [10](https://adventofcode.com/2022/day/10) | Cathode-Ray Tube        | [10a](./day10a/src/main.rs) | [10b](./day10b/src/main.rs) | :relaxed::relieved: |
+| [11](https://adventofcode.com/2022/day/11) | Monkey in the Middle    | TBC                         |                             |                     |
+| [12](https://adventofcode.com/2022/day/12) | Hill Climbing Algorithm |                             |                             |                     |
+| [13](https://adventofcode.com/2022/day/13) | Distress Signal         |                             |                             |                     |
+| [14](https://adventofcode.com/2022/day/14) | Regolith Reservoir      | [14a](./day14a/src/main.rs) | [14b](./day14b/src/main.rs) |                     |
 
 ## Notes
 
 1. Now that I have a better understanding of how this event is run, I may start uploading single file solutions from this point on, but I may still keep them split so I can have separate comments for both parts. Instead what I'll do is refactor part B to give answers to both parts where I can. Instances of part B that do not combine both answers will have a lighter background.
 1. Day 05 was torture because of that parsing. Clearly something to work on. [This](https://www.reddit.com/r/adventofcode/comments/zd1hqy/2022_day_5_i_know_i_am_overthinking_it/) meme was me.
 1. Day 08 - a little point to bear in mind for future puzzles: be sure to read the example **very** *carefully* :man_facepalming:. You can save a lot of time that way, instead of wondering why the code isn't working :skull_and_crossbones:.
-1 Some days I just don't have the time :hourglass:.
+1. Some days I just don't have the time :hourglass:.
