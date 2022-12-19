@@ -63,10 +63,10 @@ fn check(cycle: isize, x: isize, sig_str: &mut Vec<isize>, raster: &mut Vec<char
     // 3 pixels wide. If the sprite is stationary, then on the next cycle pixel
     // = 1, sprite = 1 still. Next cycle pixel = 2, sprite = 1. So when the two
     // overlap it will be when -1 <= (pixel - sprite) <= 1.
-    if (pixel - x) <= 1 && (pixel - x) >= -1 {
-        raster.push('#');
+    if (pixel - x).abs() <= 1 {
+        raster.push('█');
     } else {
-        raster.push('.');
+        raster.push(' ');
     }
 }
 

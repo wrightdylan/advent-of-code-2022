@@ -22,6 +22,10 @@ All solutions linked below:
 | [13](https://adventofcode.com/2022/day/13) | Distress Signal         |                             |                             |                          |
 | [14](https://adventofcode.com/2022/day/14) | Regolith Reservoir      | [14a](./day14a/src/main.rs) | [14b](./day14b/src/main.rs) |                          |
 | [15](https://adventofcode.com/2022/day/15) | Beacon Exclusion Zone   | [15a](./day15a/src/main.rs) | TBC                         | :thinking::monocle_face: |
+| [16](https://adventofcode.com/2022/day/16) | Proboscidea Volcanium   | TBC                         |                             | :hiking_boot::walking:   |
+| [17](https://adventofcode.com/2022/day/17) | Pyroclastic Flow        |                             |                             |                          |
+| [18](https://adventofcode.com/2022/day/18) | Boiling Boulders        |                             |                             | :sun_with_face::camera:  |
+| [19](https://adventofcode.com/2022/day/19) | Not Enough Minerals     | TBC                         |                             | :man_shrugging:          |
 
 ## Notes
 
@@ -30,3 +34,4 @@ All solutions linked below:
 1. Day 08 - a little point to bear in mind for future puzzles: be sure to read the example **very** *carefully* :man_facepalming:. You can save a lot of time that way, instead of wondering why the code isn't working :skull_and_crossbones:.
 1. Some days I just don't have the time :hourglass:.
 1. Day 15b could have been completed on time, but I really didn't want to brute force this but instead look for a more elegant solution. I've figured one out, but I will have to come back to that another time since Day 16 has been released.
+1. Day 18 was such a beautiful day, the first time this month. It seemed like a real waste not to go out all day.
