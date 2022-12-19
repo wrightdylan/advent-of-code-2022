@@ -14,7 +14,7 @@ All solutions linked below:
 | [05](https://adventofcode.com/2022/day/5)  | Supply Stacks           | [05a](./day05a/src/main.rs) | [05b](./day05b/src/main.rs) | :sob::goberserk:         |
 | [06](https://adventofcode.com/2022/day/6)  | Tuning Trouble          | [06a](./day06a/src/main.rs) | [06b](./day06b/src/main.rs) | :hugs:                   |
 | [07](https://adventofcode.com/2022/day/7)  | No Space Left On Device | TBC                         |                             | :sweat::weary:           |
-| [08](https://adventofcode.com/2022/day/8)  | Treetop Tree House      | [08a](./day08a/src/main.rs) | TBC                         | :confounded:             |
+| [08](https://adventofcode.com/2022/day/8)  | Treetop Tree House      | [08a](./day08a/src/main.rs) | [08b](./day08b/src/main.rs) | :confounded:             |
 | [09](https://adventofcode.com/2022/day/9)  | Rope Bridge             | TBC                         |                             | :hourglass::camera:      |
 | [10](https://adventofcode.com/2022/day/10) | Cathode-Ray Tube        | [10a](./day10a/src/main.rs) | [10b](./day10b/src/main.rs) | :relaxed::relieved:      |
 | [11](https://adventofcode.com/2022/day/11) | Monkey in the Middle    | TBC                         |                             |                          |
