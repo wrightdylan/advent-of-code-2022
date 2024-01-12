@@ -7,25 +7,31 @@ These are my solutions to this year's [Advent of Code](https://adventofcode.com/
 All solutions linked below:
 | Day | Title | A :star: | B :star: | Rating |
 |:-|:-|:-|:-|:-|
-| [01](https://adventofcode.com/2022/day/1)  | Calorie Counting        | [01a](./day01a/src/main.rs) | [01b](./day01b/src/main.rs) | :smiley:                 |
-| [02](https://adventofcode.com/2022/day/2)  | Rock Paper Scissors     | [02a](./day02a/src/main.rs) | [02b](./day02b/src/main.rs) | :thinking:               |
-| [03](https://adventofcode.com/2022/day/3)  | Rucksack Reorganisation | [03a](./day03a/src/main.rs) | [03b](./day03b/src/main.rs) | :grin:                   |
-| [04](https://adventofcode.com/2022/day/4)  | Camp Cleanup            | [04a](./day04a/src/main.rs) | [04b](./day04b/src/main.rs) | :smile:                  |
-| [05](https://adventofcode.com/2022/day/5)  | Supply Stacks           | [05a](./day05a/src/main.rs) | [05b](./day05b/src/main.rs) | :sob::goberserk:         |
-| [06](https://adventofcode.com/2022/day/6)  | Tuning Trouble          | [06a](./day06a/src/main.rs) | [06b](./day06b/src/main.rs) | :hugs:                   |
-| [07](https://adventofcode.com/2022/day/7)  | No Space Left On Device | TBC                         |                             | :sweat::weary:           |
-| [08](https://adventofcode.com/2022/day/8)  | Treetop Tree House      | [08a](./day08a/src/main.rs) | [08b](./day08b/src/main.rs) | :confounded:             |
-| [09](https://adventofcode.com/2022/day/9)  | Rope Bridge             | TBC                         |                             | :hourglass::camera:      |
-| [10](https://adventofcode.com/2022/day/10) | Cathode-Ray Tube        | [10a](./day10a/src/main.rs) | [10b](./day10b/src/main.rs) | :relaxed::relieved:      |
-| [11](https://adventofcode.com/2022/day/11) | Monkey in the Middle    | TBC                         |                             |                          |
-| [12](https://adventofcode.com/2022/day/12) | Hill Climbing Algorithm |                             |                             |                          |
-| [13](https://adventofcode.com/2022/day/13) | Distress Signal         |                             |                             |                          |
-| [14](https://adventofcode.com/2022/day/14) | Regolith Reservoir      | [14a](./day14a/src/main.rs) | [14b](./day14b/src/main.rs) |                          |
-| [15](https://adventofcode.com/2022/day/15) | Beacon Exclusion Zone   | [15a](./day15a/src/main.rs) | TBC                         | :thinking::monocle_face: |
-| [16](https://adventofcode.com/2022/day/16) | Proboscidea Volcanium   | TBC                         |                             | :hiking_boot::walking:   |
-| [17](https://adventofcode.com/2022/day/17) | Pyroclastic Flow        |                             |                             |                          |
-| [18](https://adventofcode.com/2022/day/18) | Boiling Boulders        |                             |                             | :sun_with_face::camera:  |
-| [19](https://adventofcode.com/2022/day/19) | Not Enough Minerals     | TBC                         |                             | :man_shrugging:          |
+| [01](https://adventofcode.com/2022/day/1)  | Calorie Counting         | [01a](./day01a/src/main.rs) | [01b](./day01b/src/main.rs) | :smiley:                 |
+| [02](https://adventofcode.com/2022/day/2)  | Rock Paper Scissors      | [02a](./day02a/src/main.rs) | [02b](./day02b/src/main.rs) | :thinking:               |
+| [03](https://adventofcode.com/2022/day/3)  | Rucksack Reorganisation  | [03a](./day03a/src/main.rs) | [03b](./day03b/src/main.rs) | :grin:                   |
+| [04](https://adventofcode.com/2022/day/4)  | Camp Cleanup             | [04a](./day04a/src/main.rs) | [04b](./day04b/src/main.rs) | :smile:                  |
+| [05](https://adventofcode.com/2022/day/5)  | Supply Stacks            | [05a](./day05a/src/main.rs) | [05b](./day05b/src/main.rs) | :sob::goberserk:         |
+| [06](https://adventofcode.com/2022/day/6)  | Tuning Trouble           | [06a](./day06a/src/main.rs) | [06b](./day06b/src/main.rs) | :hugs:                   |
+| [07](https://adventofcode.com/2022/day/7)  | No Space Left On Device  | TBC                         |                             | :sweat::weary:           |
+| [08](https://adventofcode.com/2022/day/8)  | Treetop Tree House       | [08a](./day08a/src/main.rs) | [08b](./day08b/src/main.rs) | :confounded:             |
+| [09](https://adventofcode.com/2022/day/9)  | Rope Bridge              | TBC                         |                             | :hourglass::camera:      |
+| [10](https://adventofcode.com/2022/day/10) | Cathode-Ray Tube         | [10a](./day10a/src/main.rs) | [10b](./day10b/src/main.rs) | :relaxed::relieved:      |
+| [11](https://adventofcode.com/2022/day/11) | Monkey in the Middle     | TBC                         |                             |                          |
+| [12](https://adventofcode.com/2022/day/12) | Hill Climbing Algorithm  |                             |                             |                          |
+| [13](https://adventofcode.com/2022/day/13) | Distress Signal          |                             |                             |                          |
+| [14](https://adventofcode.com/2022/day/14) | Regolith Reservoir       | [14a](./day14a/src/main.rs) | [14b](./day14b/src/main.rs) |                          |
+| [15](https://adventofcode.com/2022/day/15) | Beacon Exclusion Zone    | [15a](./day15a/src/main.rs) | TBC                         | :thinking::monocle_face: |
+| [16](https://adventofcode.com/2022/day/16) | Proboscidea Volcanium    | TBC                         |                             | :hiking_boot::walking:   |
+| [17](https://adventofcode.com/2022/day/17) | Pyroclastic Flow         |                             |                             |                          |
+| [18](https://adventofcode.com/2022/day/18) | Boiling Boulders         |                             |                             | :sun_with_face::camera:  |
+| [19](https://adventofcode.com/2022/day/19) | Not Enough Minerals      | TBC                         |                             | :man_shrugging:          |
+| [20](https://adventofcode.com/2022/day/20) | Grove Positioning System | TBC                         |                             |                          |
+| [21](https://adventofcode.com/2022/day/21) | Monkey Math              | TBC                         |                             |                          |
+| [22](https://adventofcode.com/2022/day/22) | Monkey Map               | TBC                         |                             |                          |
+| [23](https://adventofcode.com/2022/day/23) | Unstable Diffusion       |                             |                             |                          |
+| [24](https://adventofcode.com/2022/day/24) | Blizzard Basin           |                             |                             |                          |
+| [25](https://adventofcode.com/2022/day/25) | Full of Hot Air          |                             |                             |                          |
 
 ## Notes
 
@@ -35,3 +41,4 @@ All solutions linked below:
 1. Some days I just don't have the time :hourglass:.
 1. Day 15b could have been completed on time, but I really didn't want to brute force this but instead look for a more elegant solution. I've figured one out, but I will have to come back to that another time since Day 16 has been released.
 1. Day 18 was such a beautiful day, the first time this month. It seemed like a real waste not to go out all day.
+1. Week three is getting hard. It's reassuring to know devs with decades of exerience have found week 2 hard. I can say that I have learned a lot so far, and reading discussions I have also come away with a couple good book recommendations for algorithms, and other concepts such as dynamic programming.
